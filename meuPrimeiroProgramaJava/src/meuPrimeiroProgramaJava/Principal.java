@@ -31,7 +31,7 @@ public class Principal {
 		// Perguntar a Idade
 		System.out.printf("%s, qual é a sua idade?", nome);
 		
-		// Ler idade.
+		// Ler idade para elogiar.
 		Integer idade = in.nextInt();
 		
 		System.out.printf("%d! Puxa! Como você é jovem!", idade);
