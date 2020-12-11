@@ -15,19 +15,27 @@ import java.util.Scanner;
  * @author otakai
  * Data: 09/12/2020 
  */
-public class Principal {
+public class Principal { 
 	public static void main(String[] args) {
 		
 		// Saldação e pergunta o nome.
-		System.out.println("Olá amigo!\nQual é o seu nome?"); // Uso do println
+		System.out.println("Olá amigo!\nQual é o seu nome?");
 		
 		// Ler o nome.
 		Scanner in = new Scanner(System.in);
 		String nome = in.nextLine();
 		
-		// Saldação específica.
+		// Saldação para o nome lido.
 		System.out.printf("Olá %s!\n", nome);
-
+		// NOTA: Precisamos ler a idade: OK.
+		// Perguntar a Idade
+		System.out.printf("%s, qual é a sua idade?", nome);
+		
+		// Ler idade para elogiar.
+		Integer idade = in.nextInt();
+		
+		System.out.printf("%d! Puxa! Como você é jovem!!!", idade);
+		
 	}
 
 }
