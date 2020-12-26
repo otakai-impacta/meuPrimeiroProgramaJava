@@ -7,7 +7,7 @@
   4) Como ler uma string do terminal (console) do Java.
  
  */
-package meuPrimeiroProgramaJava;
+package source;
 
 import java.util.Scanner;
 
